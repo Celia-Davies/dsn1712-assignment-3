@@ -1,0 +1,29 @@
+
+header{
+    background-color: #000;
+    color: #fff;
+}
+span{
+    justify-content: flex-start;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    align-items: flex-start;
+    padding: .8em 1em;;
+}
+
+.wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+#span{
+    flex-direction: row;
+}
+
+.nav{
+    justify-content: right;
+}
