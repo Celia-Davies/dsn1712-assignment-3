@@ -34,14 +34,23 @@ span{
     background-size: cover;
     background-position: center;
     filter: grayscale(70%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
 }
+
 
 h1{
     max-width: 60% auto;
     background-color: rgba(0, 0, 0, .5);
     max-width: 60%;
-    text-shadow: 1px, 1px, #fff;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+    text-align: center;
+    text-shadow: #000;
+}
+
+
+
+#about-me{
+    grid-template-columns: 1fr, 1fr;
 }
